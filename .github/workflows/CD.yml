@@ -1,6 +1,6 @@
 env:
-  repo: "https://github.com/armer2016/artemis.git"
-  app_version: "1.0.0"
+  repo: "https://github.com/farrukh90/artemis.git"
+  app_version: "2.0.0"
   project_id: "jyfwptqeaxsteaat"
   repo_region: "us_central1"
   app_name: "artemis"
@@ -15,11 +15,11 @@ envs:
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+  # Triggers the workflow on push or pull request events but only for the "" branch
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "naster" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
